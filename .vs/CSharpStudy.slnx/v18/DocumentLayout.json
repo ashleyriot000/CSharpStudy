@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Lecture\\CSharpStudy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FBA815FE-440F-4746-B03C-1596D4CAC899}|CSharpStudy\\CSharpStudy.csproj|d:\\lecture\\csharpstudy\\csharpstudy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBA815FE-440F-4746-B03C-1596D4CAC899}|CSharpStudy\\CSharpStudy.csproj|solutionrelative:csharpstudy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Lecture\\CSharpStudy\\CSharpStudy\\Program.cs",
+              "RelativeDocumentMoniker": "CSharpStudy\\Program.cs",
+              "ToolTip": "D:\\Lecture\\CSharpStudy\\CSharpStudy\\Program.cs",
+              "RelativeToolTip": "CSharpStudy\\Program.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T02:37:52.18Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

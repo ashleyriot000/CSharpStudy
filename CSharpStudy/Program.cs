@@ -42,25 +42,43 @@
             //Console.WriteLine("iA % iB = {0}", iC);
 
 
-            Console.Write("첫번째 숫자를 입력해주세요 : ");
-            float fA = float.Parse(Console.ReadLine());
-            Console.Write("두번째 숫자를 입력해주세요 : ");
-            float fB = float.Parse(Console.ReadLine());
-            //변수의 덧셈
-            float fC = fA + fB;
-            Console.WriteLine("fA + fB = {0:f2}", fC);
-            //변수의 뺄셈
-            fC = fA - fB;
-            Console.WriteLine("fA - fB = {0:f2}", fC);
-            //변수의 곱셈
-            fC = fA * fB;
-            Console.WriteLine("fA X fB = {0:f2}", fC);
-            //변수의 나눗셈
-            fC = fA / fB;
-            Console.WriteLine("fA / fB = {0:f2}", fC);
-            //변수의 나머지
-            fC = fA % fB;
-            Console.WriteLine("fA % fB = {0:f2}", fC);
+            //Console.Write("첫번째 숫자를 입력해주세요 : ");
+            //float fA = float.Parse(Console.ReadLine());
+            //Console.Write("두번째 숫자를 입력해주세요 : ");
+            //float fB = float.Parse(Console.ReadLine());
+            ////변수의 덧셈
+            //float fC = fA + fB;
+            //Console.WriteLine("fA + fB = {0:f2}", fC);
+            ////변수의 뺄셈
+            //fC = fA - fB;
+            //Console.WriteLine("fA - fB = {0:f2}", fC);
+            ////변수의 곱셈
+            //fC = fA * fB;
+            //Console.WriteLine("fA X fB = {0:f2}", fC);
+            ////변수의 나눗셈
+            //fC = fA / fB;
+            //Console.WriteLine("fA / fB = {0:f2}", fC);
+            ////변수의 나머지
+            //fC = fA % fB;
+            //Console.WriteLine("fA % fB = {0:f2}", fC);
+
+            //배열의 선언, 정의
+            //int[] integers = new int[10];
+            //int[] integers = new int[3]
+            //{
+            //    1,2,3
+            //};
+
+            //배열 대입
+            //integers[0] = 15;
+            //integers[1] = integers[0];
+            //integers[2] = integers[0] + integers[1];
+
+            //int sum = integers[0] + integers[1] + integers[2];
+            //float avg = sum / integers.Length;
+            
+            //2차원 배열            
+            //int[,] scores = new int[3, 10];
         }
     }
 }

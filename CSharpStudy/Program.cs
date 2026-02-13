@@ -150,12 +150,116 @@
             //    Console.WriteLine("iE와 iF가 같을수도 있고 iE가 iG보다 작을 수도 있습니다.");
             //}
 
-            Console.WriteLine("가위바위보 게임 스타트");
-            Console.Write("게임을 몇번 하시겠습니까? : ");
-            int count = int.Parse(Console.ReadLine());
-            for(int i = 0; i < count; i++)
+            //Console.WriteLine("가위바위보 게임 스타트");
+            //Console.Write("게임을 몇번 하시겠습니까? : ");
+            //int count = int.Parse(Console.ReadLine());
+            //for(int i = 0; i < count; i++)
+            //{
+            //    Game();
+            //}
+
+            //Console.Write("반복하고 싶은 횟수를 입력해 주세요 : ");
+            //int count = int.Parse(Console.ReadLine());
+            //for(int i = 0; i < count; i++)
+            //{
+            //    if (i == 0)
+            //    {
+            //        continue;
+            //    }
+
+            //    if(i > 5)
+            //    {
+            //        break;
+            //    }
+
+
+            //    SwitchExample();
+            //}
+
+            //1.배열의 크기를 입력받는다.
+            //2.배열을 입력받은 크기로 생성한다.
+            //3.배열 안에 각각 원하는 값으로 입력받아 채워 넣는다.
+
+            //Console.Write("몇개의 숫자를 입력하시겠습니까? ");
+            //int length = int.Parse(Console.ReadLine());
+            //int[] iArray = new int[length];
+
+            //for(int i = 0; i < length; i++)
+            //{
+            //    Console.Write("{0}번째 원하는 숫자를 입력해주세요 :", i + 1);
+            //    iArray[i] = int.Parse(Console.ReadLine());                
+            //}
+
+
+            //int sum = 0;
+            //Console.Write("입력하신 숫자는 { ");
+            //foreach(int value in iArray)
+            //{
+            //    Console.Write("{0},", value);
+            //    sum += value;
+            //}
+            //Console.WriteLine("} 입니다.");
+            //Console.WriteLine("iArray 안에 들어있는 자연수의 총 합은 {0}입니다.", sum);
+
+
+            List<string> studentList = new List<string>();
+            bool isRunning = true;
+            while(isRunning)
             {
-                Game();
+                Console.Clear();
+                Console.WriteLine("==========     학생 기록부     ==========");
+                for (int i = 0; i < studentList.Count; i++)
+                {
+                    Console.WriteLine("{0:D2} : {1}", i + 1, studentList[i]);
+                }
+                Console.WriteLine("=========================================");
+                Console.Write("원하는 명령키를 눌러주세요(ESC:종료, ▲:학생추가, ▼:학생삭제) : ");
+                ConsoleKeyInfo info = Console.ReadKey();                
+
+                switch(info.Key)
+                {
+                    case ConsoleKey.Escape:
+                        isRunning = false;
+                        break;
+                    case ConsoleKey.UpArrow:
+                        Console.Write("추가하고 싶은 학생의 이름을 입력해주세요 : ");
+                        studentList.Add(Console.ReadLine());
+                        break;
+                    case ConsoleKey.DownArrow:
+                        Console.Write("삭제하고 싶은 학생의 이름을 입력해주세요 : ");
+                        studentList.Remove(Console.ReadLine());
+                        break;
+                    default:
+                        Console.Write("\n잘못된 명령키를 눌렀습니다. 다시 입력해 주세요.");
+                        break;
+
+                }
+                Thread.Sleep(100);
+            }
+        }
+
+
+        static void SwitchExample()
+        {
+            //Switch문
+            Console.Write("원하는 0~4사이의 숫자를 입력해 주세요 : ");
+            int iZ = int.Parse(Console.ReadLine());
+            switch (iZ)
+            {
+                case 0:
+                    Console.WriteLine("당신은 숫자 0을 입력하셨습니다.");
+                    break;
+                case 1:
+                case 2:
+                case 3:
+                    Console.WriteLine("당신은 숫자 1~ 3사이의 값을 입력하셨습니다.");
+                    break;
+                case 4:
+                    Console.WriteLine("당신은 숫자 4을 입력하셨습니다.");
+                    break;
+                default:
+                    Console.WriteLine("당신은 잘못된 숫자를 입력하셨습니다.");
+                    break;
             }
         }
 

@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("CSharpStudy")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Lotto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62d7f4fbcaa05628126b4a7868ea8591cc855c4e")]
-[assembly: System.Reflection.AssemblyProductAttribute("CSharpStudy")]
-[assembly: System.Reflection.AssemblyTitleAttribute("CSharpStudy")]
+[assembly: System.Reflection.AssemblyProductAttribute("Lotto")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Lotto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.

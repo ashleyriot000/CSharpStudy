@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Lecture\\CSharpStudy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AE4A7673-FFBF-42AC-BCF5-E8342F2412C8}|Lotto\\Lotto.csproj|d:\\lecture\\csharpstudy\\lotto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE4A7673-FFBF-42AC-BCF5-E8342F2412C8}|Lotto\\Lotto.csproj|solutionrelative:lotto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6AC37D17-BD36-491F-272E-EA65B5B0D1EF}|CSharpStudy\\CSharpStudy.csproj|d:\\lecture\\csharpstudy\\csharpstudy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AC37D17-BD36-491F-272E-EA65B5B0D1EF}|CSharpStudy\\CSharpStudy.csproj|solutionrelative:csharpstudy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -20,11 +24,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Lecture\\CSharpStudy\\Lotto\\Program.cs",
+              "RelativeDocumentMoniker": "Lotto\\Program.cs",
+              "ToolTip": "D:\\Lecture\\CSharpStudy\\Lotto\\Program.cs*",
+              "RelativeToolTip": "Lotto\\Program.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T03:20:47.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "D:\\Lecture\\CSharpStudy\\CSharpStudy\\Program.cs",
               "RelativeDocumentMoniker": "CSharpStudy\\Program.cs",
-              "ToolTip": "D:\\Lecture\\CSharpStudy\\CSharpStudy\\Program.cs*",
-              "RelativeToolTip": "CSharpStudy\\Program.cs*",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAAAJ4AAAANAAAAAAAAAA==",
+              "ToolTip": "D:\\Lecture\\CSharpStudy\\CSharpStudy\\Program.cs",
+              "RelativeToolTip": "CSharpStudy\\Program.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAAAO4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T02:37:52.18Z",
               "EditorCaption": ""

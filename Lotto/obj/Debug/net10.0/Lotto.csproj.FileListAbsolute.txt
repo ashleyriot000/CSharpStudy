@@ -1,0 +1,15 @@
+D:\Lecture\CSharpStudy\Lotto\bin\Debug\net10.0\Lotto.exe
+D:\Lecture\CSharpStudy\Lotto\bin\Debug\net10.0\Lotto.deps.json
+D:\Lecture\CSharpStudy\Lotto\bin\Debug\net10.0\Lotto.runtimeconfig.json
+D:\Lecture\CSharpStudy\Lotto\bin\Debug\net10.0\Lotto.dll
+D:\Lecture\CSharpStudy\Lotto\bin\Debug\net10.0\Lotto.pdb
+D:\Lecture\CSharpStudy\Lotto\obj\Debug\net10.0\Lotto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lecture\CSharpStudy\Lotto\obj\Debug\net10.0\Lotto.AssemblyInfoInputs.cache
+D:\Lecture\CSharpStudy\Lotto\obj\Debug\net10.0\Lotto.AssemblyInfo.cs
+D:\Lecture\CSharpStudy\Lotto\obj\Debug\net10.0\Lotto.csproj.CoreCompileInputs.cache
+D:\Lecture\CSharpStudy\Lotto\obj\Debug\net10.0\Lotto.sourcelink.json
+D:\Lecture\CSharpStudy\Lotto\obj\Debug\net10.0\Lotto.dll
+D:\Lecture\CSharpStudy\Lotto\obj\Debug\net10.0\refint\Lotto.dll
+D:\Lecture\CSharpStudy\Lotto\obj\Debug\net10.0\Lotto.pdb
+D:\Lecture\CSharpStudy\Lotto\obj\Debug\net10.0\Lotto.genruntimeconfig.cache
+D:\Lecture\CSharpStudy\Lotto\obj\Debug\net10.0\ref\Lotto.dll
